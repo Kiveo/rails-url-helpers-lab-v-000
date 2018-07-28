@@ -15,7 +15,7 @@ class StudentsController < ApplicationController
     # @student.active = !@student.active
     # @student.active_toggle
     @student.save
-    redirect_to student_path(student)
+    redirect_to student_path(@student)
   end
 
   private
